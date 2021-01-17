@@ -1,34 +1,25 @@
-# Melbourne-Housing-Data-Analysis
-Melbourne Housing Data Analysis<br>
-  <p>The dataset includes data for the below mentioned paramters for the houses in the Melbourne city.
+# Title : Melbourne-Housing-Data-Analysis
 
-Suburb,
-Address,Rooms,
-Price,
-Method,
-Type,
-SellerG,
-Date,
-Distance,
-Regionname,
-Propertycount,
-Bedroom2,
-Bathroom,
-Car,
-Landsize,
-BuildingArea,
-YearBuilt,
-CouncilArea,
-Lattitude,
-Longtitude
+## Description
+The obective of the project is to analyse the Melbourne's Housing data and build a model to make predict the price of the house.
+The dataset includes data for the 21 mentioned paramters for the houses in the Melbourne city.
 
-<b>Analysis :</b>
+- Suburb,Address,Rooms,Price,Method,Type,SellerG,Date,Distance,Regionname,Propertycount,Bedroom2,
+Bathroom,Car,Landsize,BuildingArea,YearBuilt,CouncilArea,Lattitude,Longtitude
 
-•	Data cleaning with variable research to ensure meaningful and analysable data for modelling.<br>
-•	Exploratory Data Analysis to analyse trends in the housing data.
-  https://public.tableau.com/profile/ashishbidap#!/vizhome/Melbourne_housing/Story1 
-    <br>
-•	Implemented Linear regression, Decision tree and Random forest regressor models to predict the target feature price.<br>
-•	Efficient features selection using stepwise selection and lasso regression. <br>
-•	Random Forest regressor was the best fit model with efficient R square score.
+## Technology Used
+- Predictive Modeling<br>
+- Regression<br>
+- Descriptive Statistics<br>
+
+## Environment
+- R Studio , R (ggplot2,dplyr,randomForest,corrplot)
+
+## Analysis
+- Data cleaning with variable research to ensure meaningful and analysable data for modelling.<br>
+- Exploratory Data Analysis to analyse trends in the housing data :
+<a href="https://public.tableau.com/profile/ashishbidap#!/vizhome/Melbourne_housing/Story1">Dashboard</a> <br>
+- Implemented Linear regression, Decision tree and Random forest regressor models to predict the target feature price.<br>
+-	Efficient features selection using stepwise selection and lasso regression. <br>
+-	Random Forest regressor was the best fit model with efficient R square score.
 
